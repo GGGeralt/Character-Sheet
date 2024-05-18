@@ -30,4 +30,20 @@ public class Character
     {
         this.name = name;
     }
+
+    public Character(string name, string race, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma) : this(name)
+    {
+        this.race = race;
+        this.level = 0;
+        this.health = 0;
+        this.spells = new List<SpellData>();
+        this.classes = new List<string>();
+        this.inventory = new List<ItemData>();
+        this.strength = strength;
+        this.dexterity = dexterity;
+        this.constitution = constitution;
+        this.intelligence = intelligence;
+        this.wisdom = wisdom;
+        this.charisma = charisma;
+    }
 }
