@@ -12,7 +12,7 @@ public class Character
     public int level;
     public int health;
     public List<SpellData> spells;
-    public List<string> classes;
+    public List<CharacterClass> classes;
     public List<ItemData> inventory;
 
     public int strength;
@@ -37,7 +37,7 @@ public class Character
         this.level = 0;
         this.health = 0;
         this.spells = new List<SpellData>();
-        this.classes = new List<string>();
+        this.classes = new List<CharacterClass>();
         this.inventory = new List<ItemData>();
         this.strength = strength;
         this.dexterity = dexterity;
