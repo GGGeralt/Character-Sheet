@@ -1,18 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using static TMPro.TMP_Dropdown;
 
 public class ClassAdder : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public TMP_Dropdown classDropdown;
+    public void Start()
     {
-        
+        classDropdown.options.Clear();
+        foreach (CharacterClass characterClass in ClassManager.Instance.classes)
+        {
+            classDropdown.options.Add(new OptionData(characterClass.className));
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddClass()
     {
-        
+        print("ADDING CLASS " + classDropdown.options[classDropdown.value].text);
     }
 }

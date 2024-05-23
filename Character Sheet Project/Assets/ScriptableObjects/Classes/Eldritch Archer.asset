@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e1cc14d2ef050f4f90e91191c45fd79, type: 3}
   m_Name: Eldritch Archer
   m_EditorClassIdentifier: 
-  className: 
+  className: Eldritch Archer
   description: 
   type: 0
   levels:

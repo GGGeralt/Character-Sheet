@@ -10,8 +10,6 @@ public class CharacterManager : MonoBehaviour
 
     public bool isChosen = false;
 
-    //[SerializeField] private Sprite background;
-    //[SerializeField] private Sprite portrait;
     private void Awake()
     {
         if (Instance != null && Instance != this)
