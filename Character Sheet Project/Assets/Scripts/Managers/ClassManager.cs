@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ClassManager : MonoBehaviour
@@ -18,8 +19,8 @@ public class ClassManager : MonoBehaviour
         }
     }
 
-    public void GetClass(string className)
+    public CharacterClass GetClass(string className)
     {
-        //return classes.Where((characterCLass) => characterCLass.className == className);
+        return classes.First(c => c.className == className);
     }
 }

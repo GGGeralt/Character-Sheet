@@ -1,15 +1,15 @@
 {
     "name": "GGGeralt",
     "race": "",
-    "level": 12,
-    "health": 90,
+    "level": 0,
+    "health": 0,
+    "spells": [],
     "classes": [],
     "inventory": [],
-    "spells": [],
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12
+    "strength": 0,
+    "dexterity": 0,
+    "constitution": 0,
+    "intelligence": 0,
+    "wisdom": 0,
+    "charisma": 0
 }
