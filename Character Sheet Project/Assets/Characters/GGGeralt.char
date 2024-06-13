@@ -6,10 +6,10 @@
     "spells": [],
     "classes": [],
     "inventory": [],
-    "strength": 0,
-    "dexterity": 0,
-    "constitution": 0,
-    "intelligence": 0,
-    "wisdom": 0,
-    "charisma": 0
+    "strength": 18,
+    "dexterity": 12,
+    "constitution": 11,
+    "intelligence": 11,
+    "wisdom": 12,
+    "charisma": 13
 }

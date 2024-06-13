@@ -26,7 +26,7 @@ public class DescriptionMenuManager : MonoBehaviour
 
     public void LoadData()
     {
-        if (CharacterManager.Instance.isChosen != false)
+        if (CharacterManager.Instance.isChosen != false && Instance != null)
         {
             strengthScoreText.text = CharacterManager.Instance.GetChosenCharacter().strength.ToString();
             dexterityScoreText.text = CharacterManager.Instance.GetChosenCharacter().dexterity.ToString();
